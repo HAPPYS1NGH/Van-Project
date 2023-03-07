@@ -21,11 +21,16 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
-header a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 nav{
     margin-left: auto;
+}
+.active-nav{
+    text-decoration-line: underline;
+    color: #161616;
+    font-weight: "bold"
 }
 
 /* Home */
@@ -133,11 +138,13 @@ font-size: 14px;
     width: 100%;
 }
 .i-btn{
-    padding: 10px 20px;
+    padding: 8px 15px;
+    width: 70px;
     color: #FFEAD0;
     font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .simple{
@@ -161,6 +168,7 @@ font-size: 14px;
         font-weight: 600;
         font-size: .8rem;
         border-radius: 5px;
+        text-align: center;
     }
 } 
 
@@ -176,9 +184,92 @@ font-size: 14px;
     margin-bottom: 4rem;
 }
 
+/* Footer  */
+
 footer{
     background: #252525;
     color: #AAAAAA;
     text-align: center;
     padding: 50px;
+}
+
+/* Host */
+
+.host-nav{
+    padding: 20px;
+    background-color: #FFF7ED;
+    font-size: 18px;
+}
+
+/* Host Van */
+.host-vans{
+    padding: 2rem;
+    background-color: #FFF7ED;
+}
+
+.host-van{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.host-van img {
+    padding: 20px;
+    height: 60px;
+}
+
+.host-van-name{
+    display: block;
+    height: 100px;
+}
+.host-van-name p {
+    position: relative;
+    color: #4D4D4D;
+    bottom: 20px;
+}
+
+/* Host Van Detail */
+
+.host-van-detail{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+.host-van-detail img {
+    width: 200px;    
+    align-items: center;
+    padding: 20px;
+}
+.host-van-detail-info {
+    display: flex;
+    flex-direction: column;
+}
+.host-van-detail-info h2{
+    margin: 20px 0px;
+}
+.host-van-detail-info h4{
+    margin:  0px;
+}
+.host-van-container{
+    padding: 20px;
+    background: #FFF7ED;
+}
+.host-back{
+text-decoration-line: underline;
+}
+.host-van-container div{
+    margin-top: 50px;
+}
+.host-van-detail-outlet{
+    background-color: #FFFFFF;
+}
+/* Host Van Info */
+.host-van-info-page p{
+    font-style: normal;
+font-weight: 700;
+font-size: 14.3548px;
+line-height: 21px;
+color: #161616;
+margin: 5px;
 }

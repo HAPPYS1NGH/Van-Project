@@ -18,7 +18,7 @@ function Vans() {
         <Link to={`/vans/${van.id}`}>
         <img src={van.imageUrl} alt="Van" />
         <h4>{van.name}</h4>
-        <h4>{van.price} <span className='van-text'>/day</span></h4>
+        <h4>{van.price} <span className='van-text'>$/day</span></h4>
         <i className={`${van.type} i-btn`} >{van.type}</i>
       </Link>
       </div>
