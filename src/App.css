@@ -267,9 +267,20 @@ text-decoration-line: underline;
 /* Host Van Info */
 .host-van-info-page p{
     font-style: normal;
-font-weight: 700;
-font-size: 14.3548px;
-line-height: 21px;
-color: #161616;
-margin: 5px;
+    font-size: 14.3548px;
+    line-height: 21px;
+    margin: 15px 0px;
+}
+.host-van-info-page span {
+    font-weight: 700;
+    color: #161616;
+}
+
+section{
+    padding: 20px ;
+    margin: 5px 15px;
+}
+
+.host-van-detail-outlet nav{
+    padding: 20px;
 }
